@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+import os
+from colorama import Fore
+print(Fore.RED)
+print("Chose a WiFi connection below to set into Monitor Mode:")
+print()
+print(Fore.CYAN)
+device = os.system("iwconfig")
+print()
+print(Fore.RED)
+name = input("Enter Connection Name: ")
+down = os.system(f"sudo ifconfig {name} down")
+print()
+print("READY")
+print(Fore.YELLOW)
+monitor = os.system(f"sudo iwconfig {name} mode monitor")
+print()
+print("SET")
+print(Fore.GREEN)
+up = os.system(f"sudo ifconfig {name} up")
+print()
+print("GO!")
+print()
+print(Fore.CYAN)
+print("Your card is now set to Monitor Mode!")
