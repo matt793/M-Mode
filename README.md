@@ -19,6 +19,4 @@ If your card for some reason is still in Manage Mode, run the script once more, 
 
 Run `sudo ./install.sh`.
 
-![Example](/images/ScreenShot.xcf "Example")
-
 ![Example](/images/2ScreenShot.png "Example")
