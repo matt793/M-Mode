@@ -19,7 +19,6 @@ If your card for some reason is still in Manage Mode, run the script once more, 
 
 Run `sudo ./install.sh`.
 
-## Executable Fix
+![Example](/Image/ScreenShot.xcf "Example")
 
-The python (.py) and Bash-script (.sh) files may need to be turned into executables if they don't run.
-Type `chmod 755 <file name>` in terminal to make files executable.
+![Example](/Image/2ScreenShot.png "Example")
