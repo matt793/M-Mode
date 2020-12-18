@@ -12,7 +12,7 @@ def menu():
     print()
     choice = input()
 
-    if choice == 'Y':
+    if choice == 'y':
         print()
         print(Fore.RED)
         print("Chose a WiFi connection below to set into Monitor Mode:")
@@ -37,7 +37,7 @@ def menu():
         print(Fore.CYAN)
         print("Your card is now set to Monitor Mode!")
 
-    if choice == 'N':
+    if choice == 'n':
         exit()
 
 menu()
