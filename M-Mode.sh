@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-./MonitorMode.py
+M-Mode.py
