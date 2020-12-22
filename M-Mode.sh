@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-M-Mode.py
+./M-Mode.py
