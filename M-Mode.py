@@ -3,7 +3,7 @@
 import os
 from colorama import Fore
 print(Fore.CYAN)
-print("🇲​​​​​  - 🇲​​​​​ 🇴​​​​​ 🇩​​​​​ 🇪​​​​​")
+print("🇲​- 🇲​ 🇴​ 🇩​ 🇪")
 print("'See Everything'")
 print()
 print("Press [Y] to turn on monitor mode\nPress [N] to exit")
